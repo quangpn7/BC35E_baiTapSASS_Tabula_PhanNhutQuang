@@ -1,0 +1,14 @@
+button {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px 50px;
+  background-color: $primary-color;
+  color: #fff;
+  transition: $transition;
+  &:hover {
+    border: 1px solid $primary-color;
+    background-color: #fff;
+    color: $primary-color;
+  }
+}

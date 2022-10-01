@@ -1,0 +1,118 @@
+footer {
+  background-image: url(./../../img/footer_background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  padding-bottom: 340px;
+  .footer__content {
+    width: 85%;
+    margin: auto;
+    h2 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.4531rem;
+      padding-bottom: 15px;
+    }
+
+    ul.footer__icon {
+      li {
+        display: inline;
+        padding-right: 5px;
+      }
+      a {
+        border: none;
+        color: #fff;
+        transition: $transition;
+        &:hover {
+          color: #000 !important;
+        }
+        i {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  li {
+    padding: 0 0 12px 0;
+    margin-bottom: 12px;
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  span,
+  a {
+    color: #fff !important;
+    opacity: 1;
+    font-size: 0.8438rem;
+    text-decoration: none;
+
+    font-family: $secondary-font;
+  }
+  span {
+    line-height: 1.1;
+  }
+  a {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  input,
+  button {
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    width: 80% !important;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  input {
+    color: #fff;
+    text-align: center;
+
+    background-color: transparent;
+    transition: $transition;
+    &::placeholder {
+      color: white;
+      opacity: 1;
+    }
+
+    &:focus {
+      outline: none;
+      border: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+  button {
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    font-size: 0.8em;
+    transition: $transition;
+    &:hover {
+      background-color: $primary-color;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+}
+
+@include responsive("large-down") {
+  footer {
+    padding-bottom: 155px !important;
+  }
+  .footer__col {
+    margin-bottom: 60px !important;
+  }
+}
+@include responsive("large-down") {
+  footer {
+    .footer__col {
+      input,
+      button {
+        width: 100% !important;
+      }
+    }
+  }
+}

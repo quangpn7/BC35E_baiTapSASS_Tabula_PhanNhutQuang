@@ -1,0 +1,44 @@
+section.about {
+  background-image: url(../../img/yellow_top_wave_01.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  padding-bottom: 30px;
+  z-index: 1;
+
+  .about__content {
+    width: 85%;
+
+    padding-top: 120px;
+    .about__left {
+      margin-right: auto;
+      .about__text {
+        p {
+          color: $primary-color;
+          font-size: $fs-2;
+          font-weight: 600;
+        }
+        h1 {
+          font-size: 3.8rem;
+          font-weight: 700;
+        }
+      }
+    }
+    .about__right {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .about__footer_bg {
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    img {
+      width: 100%;
+    }
+  }
+}
