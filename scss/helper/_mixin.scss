@@ -1,6 +1,27 @@
-@mixin inputForm {
-  border: 1px solid red;
-  border-radius: 10px;
+@mixin styleText($fz, $fw, $color) {
+  font-size: $fz;
+  font-weight: $fw;
+  color: $color;
+}
+
+@mixin styleBtn($bgc, $py, $px, $border, $radius) {
+  background-color: $bgc;
+  padding: $py $px;
+  border: $border;
+  border-radius: $radius;
+}
+
+@mixin styleBtnHover($bgc, $color, $border) {
+  background-color: $bgc;
+  color: $color;
+  border: $border;
+}
+
+@mixin inputForm($bgc, $py, $px, $border, $radius) {
+  background-color: $bgc;
+  padding: $py $px;
+  border: $border;
+  border-radius: $radius;
 }
 
 @mixin responsive($screen) {

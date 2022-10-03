@@ -2,6 +2,7 @@
 $primary-color: #b61984;
 $secondary-color: #000;
 $thirdly-color: #ffffff1a;
+$forth-color: #dcd1f0;
 $text-color-1: #000;
 $text-color-2: #212529;
 $text-color-3: #fff;
@@ -18,6 +19,10 @@ $fw-3: 700;
 
 //TRANSITION
 $transition: all 0.3s ease;
+//SHADOW
+$shadow-1: 0 30px 30px -10px rgb(0 0 0 / 20%);
+$shadow-2: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+
 //break points
 $breakpoints: (
   "extra-large": 1200px,

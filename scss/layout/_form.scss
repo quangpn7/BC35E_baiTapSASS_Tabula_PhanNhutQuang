@@ -1,6 +1,5 @@
 .form {
   position: relative;
-
   padding-top: 7em;
   overflow: hidden;
   .form__left {
@@ -15,15 +14,14 @@
       background-color: #fff;
       padding: 30px 25px;
       border-radius: 10px;
-      box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+      box-shadow: $shadow-2;
       // z-index: 5;
 
       h1 {
         text-align: center;
         width: 100%;
         margin-bottom: 50px;
-        font-weight: 700;
-        font-size: 37.5px;
+        @include styleText($fs-3, $fw-3, $text-color-1);
       }
       .form__contact {
         .form__name,

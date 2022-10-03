@@ -13,13 +13,10 @@ section.about {
       margin-right: auto;
       .about__text {
         p {
-          color: $primary-color;
-          font-size: $fs-2;
-          font-weight: 600;
+          @include styleText($fs-1, $fw-2, $primary-color);
         }
         h1 {
-          font-size: 3.8rem;
-          font-weight: 700;
+          @include styleText(3.8rem, $fw-3, $text-color-1);
         }
       }
     }

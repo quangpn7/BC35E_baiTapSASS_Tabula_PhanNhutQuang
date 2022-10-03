@@ -36,21 +36,24 @@ header {
     a.nav-link,
     a.header__icon {
       padding: 0 !important;
-      font-size: $fs-0;
-      font-weight: bold;
+      font-size: 13px;
+      font-weight: $fw-2;
       color: black !important;
+      &:hover {
+        color: $primary-color !important;
+      }
     }
     a.header__icon {
       padding: 0 10px 0 5px !important;
-      font-size: 16px !important;
+      font-size: $fs-1 !important;
     }
     .header__phone {
       padding: 10px 12px;
       font-size: 13px;
-      font-weight: 700;
+      font-weight: $fw-3;
     }
     .header__phone a {
-      color: white !important;
+      color: $text-color-3 !important;
     }
 
     li.header__social a.header__icon {
@@ -76,7 +79,7 @@ header {
   }
   header {
     .navbar {
-      background-color: #fff !important;
+      background-color: $text-color-3 !important;
       padding: 0.5rem 0;
     }
     .header__content {

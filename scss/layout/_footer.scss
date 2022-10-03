@@ -9,10 +9,9 @@ footer {
     width: 85%;
     margin: auto;
     h2 {
-      color: #fff;
-      font-weight: 700;
-      font-size: 1.4531rem;
+      // font-size: 1.4531rem;
       padding-bottom: 15px;
+      @include styleText($fs-2, $fw-3, $text-color-3);
     }
 
     ul.footer__icon {
@@ -22,10 +21,10 @@ footer {
       }
       a {
         border: none;
-        color: #fff;
+        color: $text-color-3;
         transition: $transition;
         &:hover {
-          color: #000 !important;
+          color: $text-color-1 !important;
         }
         i {
           font-weight: bold;
@@ -43,12 +42,14 @@ footer {
 
   span,
   a {
-    color: #fff !important;
+    color: $text-color-3 !important;
     opacity: 1;
     font-size: 0.8438rem;
     text-decoration: none;
-
     font-family: $secondary-font;
+    &:hover {
+      text-decoration: none;
+    }
   }
   span {
     line-height: 1.1;
