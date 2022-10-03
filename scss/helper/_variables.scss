@@ -1,10 +1,22 @@
+//COLOR
 $primary-color: #b61984;
-$text-color: #191919;
+$secondary-color: #000;
+$thirdly-color: #ffffff1a;
+$text-color-1: #000;
+$text-color-2: #212529;
+$text-color-3: #fff;
+//FONT
 $primary-font: "Montserrat", sans-serif;
 $secondary-font: "Roboto", sans-serif;
-$fs-0: 13px;
-$fs-1: 14.4px;
-$fs-2: 17.6px;
+$fs-0: 11.25px;
+$fs-1: 16px;
+$fs-2: 23.35px;
+$fs-3: 37px;
+$fw-1: 400;
+$fw-2: 600;
+$fw-3: 700;
+
+//TRANSITION
 $transition: all 0.3s ease;
 //break points
 $breakpoints: (

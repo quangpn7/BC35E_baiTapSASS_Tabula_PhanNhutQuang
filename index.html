@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>(Building)Our Team - Wavy</title>
+    <title>Our Team - Wavy</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -14,10 +14,16 @@
       sizes="32x32"
     />
 
-    <!-- FONT AWESOME 4 -->
+    <!-- FONT AWESOME 5 -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
     />
     <!-- MONTSERRAT, ROBOTO FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,79 +44,79 @@
   <link rel="stylesheet" href="./css/style.css" />
   <body>
     <!-- HEADER -->
-    <header class="bg-transparent">
-      <div class="header__bg">
-        <div class="header__content">
-          <nav class="navbar navbar-expand-md">
-            <!-- Brand -->
-            <img src="./img/crest.png" alt="logo Tabula" />
+    <header>
+      <div class="header__content">
+        <nav class="navbar navbar-fixed-top navbar-expand-xl navbar-light">
+          <!-- Brand -->
+          <img src="./img/crest.png" alt="logo Tabula" />
 
-            <!-- Toggler/collapsibe Button -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapsibleNavbar"
-            >
-              <span class="navbar-toggler-icon"></span>
+          <!-- Toggler/collapsibe Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Elements</a>
+              </li>
+            </ul>
+            <button class="header__phone">
+              <a href="tel:(+1) 555 234-8765"></a> <i class="fa fa-phone"></i>
+              (+1) 555 234-8765
             </button>
-
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Elements</a>
-                </li>
-              </ul>
-              <ul class="header__contact navbar-nav d-flex align-items-center">
-                <li class="header__phone">
-                  <a href="tel:(+1) 555 234-8765"
-                    ><i class="fa fa-phone"></i>(+1) 555 234-8765</a
-                  >
-                </li>
-                <li class="header__social">
-                  <a class="header__icon" href="#"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-                </li>
-                <li class="header__social">
-                  <a class="header__icon" href="#"
-                    ><i class="fa fa-facebook"></i
-                  ></a>
-                </li>
-                <li class="header__social header__icon">
-                  <a class="header__icon" href="#">
-                    <i class="fa fa-youtube"></i
-                  ></a>
-                </li>
-                <li class="header__social header__icon">
-                  <a class="header__icon" href="#"
-                    ><i class="fa fa-instagram"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+            <ul class="header__contact navbar-nav d-flex align-items-center">
+              <li class="header__social">
+                <a class="header__icon" href="#"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="header__social">
+                <a class="header__icon" href="#"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="header__social header__icon">
+                <a class="header__icon" href="#">
+                  <i class="fab fa-youtube"></i
+                ></a>
+              </li>
+              <li class="header__social header__icon">
+                <a class="header__icon" href="#"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
     <!-- ABOUT US -->
     <section class="about position-relative">
+      <div class="about__footer_bg">
+        <img src="./img/Violet_top_left_wave.png" alt="wave_white" />
+      </div>
       <div
         class="about__content row align-items-center justify-content-center m-auto"
       >
@@ -124,12 +130,12 @@
           <img src="./img/hero_team.png" alt="" />
         </div>
       </div>
-      <div class="about__footer_bg">
-        <img src="./img/Violet_top_left_wave.png" alt="wave_white" />
-      </div>
     </section>
     <!-- GRID -->
     <section class="grid__system">
+      <div class="grid__footer_bg">
+        <img src="./img/Wave_White_bottom_right_shape_01.png" alt="" />
+      </div>
       <div class="about__grid">
         <div class="about__row row">
           <div class="card__holder col-12 col-md-6 col-lg-3">
@@ -275,16 +281,13 @@
           </div>
         </div>
       </div>
-      <div class="grid__footer_bg">
-        <img src="./img/Wave_White_bottom_right_shape_01.png" alt="" />
-      </div>
     </section>
     <!-- FORM -->
     <section class="form">
       <div class="form__bg">
         <img src="./img/accent_bottom_wave_01.png" alt="" />
       </div>
-      <div class="form__content row align-items-center">
+      <div class="form__content row align-items-start justify-content-between">
         <div class="col-12 col-lg-6 form__left text-right pb-4">
           <img src="./img/conatct_inner.png" alt="" />
         </div>
@@ -297,16 +300,16 @@
                   class="form__contact row justify-content-between w-100 m-0"
                 >
                   <div class="form__name">
-                    <span><i class="fa fa-user"></i></span>
+                    <span><i class="far fa-user"></i></span>
                     <span><input type="text" placeholder="Name" /></span>
                   </div>
                   <div class="form__email">
-                    <span><i class="fa fa-medkit"></i></span>
-                    <span><input type="email" placeholder="Email" /></span>
+                    <span><i class="far fa-envelope"></i></span>
+                    <span><input type="email" placeholder="E-mail" /></span>
                   </div>
                 </div>
                 <div class="form__select">
-                  <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                  <span><i class="fa fa-user-graduate"></i></span>
                   <span
                     ><select name="courseSelect" id="courseSelect">
                       <option value="">Course select</option>
@@ -318,8 +321,8 @@
                 </div>
                 <div class="form__message">
                   <span class="message_icon"
-                    ><i class="fa fa-snapchat" aria-hidden="true"></i
-                  ></span>
+                    ><i class="fas fa-comment-dots"></i>
+                  </span>
                   <span>
                     <textarea
                       name="messsage"
@@ -359,29 +362,29 @@
               </li>
               <li>
                 <span class="d-block"
-                  ><i class="fa fa-clock-o"></i>Monday - Friday: 8 AM - 5
+                  ><i class="fas fa-clock"></i> Monday - Friday: 8 AM - 5
                   PM</span
                 >
               </li>
               <ul class="list-unstyled footer__icon">
                 <li class="header__social">
                   <a class="header__icon" href="#"
-                    ><i class="fa fa-twitter"></i
+                    ><i class="fab fa-twitter"></i
                   ></a>
                 </li>
                 <li class="header__social">
                   <a class="header__icon" href="#">
-                    <i class="fa fa-instagram"></i
+                    <i class="fab fa-instagram"></i
                   ></a>
                 </li>
                 <li class="header__social header__icon">
                   <a class="header__icon" href="#"
-                    ><i class="fa fa-facebook"></i>
+                    ><i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li class="header__social header__icon">
                   <a class="header__icon" href="#"
-                    ><i class="fa fa-youtube-play"></i
+                    ><i class="fab fa-youtube"></i
                   ></a>
                 </li>
               </ul>
@@ -432,5 +435,19 @@
         crossorigin="anonymous"
       ></script>
     </div>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+      integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>

@@ -3,15 +3,20 @@
 
   padding-top: 7em;
   overflow: hidden;
+  .form__left {
+    img {
+      width: 70%;
+    }
+  }
   .form__right {
     padding: 0 !important;
     .form__content {
-      width: 70%;
+      width: 55%;
       background-color: #fff;
       padding: 30px 25px;
       border-radius: 10px;
       box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
-      z-index: 5;
+      // z-index: 5;
 
       h1 {
         text-align: center;
@@ -23,12 +28,15 @@
       .form__contact {
         .form__name,
         .form__email {
+          font-family: $secondary-font;
           width: 45%;
-          padding: 8px 0 8px 8px;
+          font-size: 12.8px;
+          padding: 8px 0 8px 20px;
           border: 1px solid rgba(0, 0, 0, 0.1);
           border-radius: 50px;
           text-align: left;
           span {
+            color: $primary-color;
             input {
               border: none;
               width: 80%;
@@ -40,6 +48,8 @@
         }
       }
       .form__select {
+        color: $primary-color;
+        font-size: 12.8px;
         text-align: left;
         margin: 15px 0 !important;
         padding: 5px 0 5px 15px;
@@ -55,6 +65,8 @@
         }
       }
       .form__message {
+        color: $primary-color;
+        font-size: 12.8px;
         margin: 0 0 15px 0;
 
         border-radius: 50px;

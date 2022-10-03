@@ -7,9 +7,8 @@ section.about {
   z-index: 1;
 
   .about__content {
+    padding-top: 120px !important;
     width: 85%;
-
-    padding-top: 120px;
     .about__left {
       margin-right: auto;
       .about__text {

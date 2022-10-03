@@ -20,7 +20,7 @@
         border-radius: 10px;
         border: none;
         text-align: center;
-        z-index: 10;
+
         transition: $transition;
 
         &:hover {
@@ -59,12 +59,12 @@
     }
   }
   .grid__footer_bg {
+    z-index: 2;
     img {
       width: 100%;
       position: absolute;
       bottom: 0;
       right: 0;
-      z-index: 5;
     }
   }
 }
